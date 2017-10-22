@@ -1,0 +1,47 @@
+html, html body, html body .weixin {
+  width: 100%;
+  height: 100%; }
+  html body, html body .weixin body {
+    margin: 0; }
+    html body .weixin ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      html body .weixin ul li {
+        width: 100%;
+        height: 2.6rem;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 0.04rem solid #e5e5e5;
+        padding: 0.3rem 0.6rem;
+        box-sizing: border-box; }
+        html body .weixin ul li:last-child {
+          border-bottom: none; }
+        html body .weixin ul li div {
+          height: 2rem; }
+          html body .weixin ul li div:first-child {
+            width: 2rem; }
+            html body .weixin ul li div:first-child img {
+              width: 2rem;
+              height: 2rem; }
+          html body .weixin ul li div:nth-child(2) {
+            width: 9.24rem; }
+            html body .weixin ul li div:nth-child(2) p {
+              margin: 0;
+              padding: 0;
+              line-height: 1rem; }
+              html body .weixin ul li div:nth-child(2) p:first-child {
+                font-size: 0.64rem;
+                color: #222; }
+              html body .weixin ul li div:nth-child(2) p:last-child {
+                font-size: 0.36rem;
+                color: #999;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden; }
+          html body .weixin ul li div:last-child {
+            width: 1.76rem;
+            font-size: 0.48rem;
+            color: #999; }
+
+/*# sourceMappingURL=weixin.css.map */

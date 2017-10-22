@@ -1,0 +1,110 @@
+$sc:50;
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../font/iconfont.eot');
+  src: url('../../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../font/iconfont.woff') format('woff'),
+  url('../../font/iconfont.ttf') format('truetype'),
+  url('../../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        @extend html;
+        margin: 0;
+        .wo{
+            @extend html;
+            background: #ebebeb;
+            padding-top: 40/$sc+rem;
+            box-sizing: border-box;
+            ul{
+                margin: 40/$sc+rem 0 0 0;
+                padding: 0 30/$sc+rem;
+                list-style: none;
+                box-sizing: border-box;
+                color: #333;
+                background: #fff;
+                &:first-child{
+                    margin-top: 0;
+                    li{
+                        height: 166/$sc+rem;
+                        div{
+                            height: 134/$sc+rem;
+                            &:first-child{
+                                width: 134/$sc+rem;
+                                margin-right: 34/$sc+rem;
+                                img{
+                                    width: 134/$sc+rem;
+                                    height: 134/$sc+rem;
+                                }
+                            }
+                            &:nth-child(2){
+                                flex: 1;
+                                p{
+                                    margin: 0;
+                                    line-height: 67/$sc+rem;
+                                    font-size: 32/$sc+rem;
+                                    color: #333;
+                                    &:last-child{
+                                        font-size: 18/$sc+rem;
+                                        color: #666;
+                                    }
+                                }
+                            }
+                            &:last-child{
+                                width: 38/$sc+rem;
+                                line-height: 134/$sc+rem;
+                                margin-right: 22/$sc+rem;
+                                color: #999;
+                                font-size: 38/$sc+rem;
+                            }
+                        }
+                    }
+                }
+                li{
+                    width: 100%;
+                    height: 100/$sc+rem;
+                    font-size: 32/$sc+rem;
+                    padding: 15/$sc+rem 0;
+                    box-sizing: border-box;
+                    display: flex;
+                    border-top: 2/$sc+rem solid #e5e5e5;
+                    &:first-child{
+                        border-top: none;
+                    }
+                    &:nth-child(4){
+                        .iconfont{
+                            color: #ffca00;
+                        }
+                    }
+                    div{
+                        height: 70/$sc+rem;
+                        line-height: 70/$sc+rem;
+                        &:first-child{
+                            width: 70/$sc+rem;
+                            margin-right: 27/$sc+rem;
+                            text-align: center;
+                            img{
+                                width: 50/$sc+rem;
+                                height: 50/$sc+rem;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    .iconfont{
+                        color: #10aeff;
+                        font-size: 50/$sc+rem;
+                    }
+                }
+            }
+        }
+    }
+}        

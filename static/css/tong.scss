@@ -1,0 +1,83 @@
+$sc:50;
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../font/iconfont.eot');
+  src: url('../../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../font/iconfont.woff') format('woff'),
+  url('../../font/iconfont.ttf') format('truetype'),
+  url('../../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        @extend html;
+        margin: 0;
+        .tongxunlu{
+            @extend html;
+            position: relative;
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                padding: 0 50/$sc+rem 0 30/$sc+rem;
+                box-sizing: border-box;
+                color: #333;
+                li{
+                    width: 100%;
+                    height: 108/$sc+rem;
+                    display: flex;
+                    border-bottom: 1/$sc+rem solid #e5e5e5;
+                    padding: 15/$sc+rem 0;
+                    box-sizing: border-box;
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                    div{
+                        height: 74/$sc+rem;
+                        line-height: 74/$sc+rem;
+                        &:first-child{
+                            width: 74/$sc+rem;
+                            margin-right: 27/$sc+rem;
+                            img{
+                                width: 74/$sc+rem;
+                                height: 74/$sc+rem;
+                            }
+                        }
+                        &:last-child{
+                            font-size: 28/$sc+rem;
+                        }
+                    }
+                }
+                &:first-child{
+                    .blue{
+                            background: #2782d7;
+                            text-align: center;
+                        img{
+                            width: 44/$sc+rem;
+                            height: 44/$sc+rem;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            &>div{
+                width: 100%;
+                height: 44/$sc+rem;
+                line-height: 44/$sc+rem;
+                font-size: 18/$sc+rem;
+                background: #ebebeb;
+                padding: 0 30/$sc+rem;
+                box-sizing: border-box;
+                color: #666;
+            }
+        }
+    }
+}        

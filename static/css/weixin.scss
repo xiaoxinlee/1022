@@ -1,0 +1,64 @@
+$sc:50;
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        @extend html;
+        margin: 0;
+        .weixin{
+            @extend html;
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li{
+                    width: 100%;
+                    height: 130/$sc+rem;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 2/$sc+rem solid #e5e5e5;
+                    padding: 15/$sc+rem 30/$sc+rem;
+                    box-sizing: border-box;
+                    &:last-child{
+                        border-bottom: none;
+                    }
+                    div{
+                        height: 100/$sc+rem;
+                        &:first-child{
+                            width: 100/$sc+rem;
+                            img{
+                                width: 100/$sc+rem;
+                                height: 100/$sc+rem;
+                            }
+                        }
+                        &:nth-child(2){
+                            width: 462/$sc+rem;
+                            p{
+                                margin: 0;
+                                padding: 0;
+                                line-height: 50/$sc+rem;
+                                &:first-child{
+                                    font-size: 32/$sc+rem;
+                                    color: #222;
+                                }
+                                &:last-child{
+                                    font-size: 18/$sc+rem;
+                                    color: #999;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    overflow: hidden;
+                                }
+                            }
+                        }
+                        &:last-child{
+                            width: 88/$sc+rem;
+                            font-size: 24/$sc+rem;
+                            color: #999;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

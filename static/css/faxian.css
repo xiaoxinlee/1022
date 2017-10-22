@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("../../font/iconfont.eot");
+  src: url("../../font/iconfont.eot?#iefix") format("embedded-opentype"), url("../../font/iconfont.woff") format("woff"), url("../../font/iconfont.ttf") format("truetype"), url("../../font/iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+html, html body, html body .faxian {
+  width: 100%;
+  height: 100%; }
+  html body, html body .faxian body {
+    margin: 0; }
+    html body .faxian {
+      background: #ebebeb;
+      padding-top: 0.8rem;
+      box-sizing: border-box; }
+      html body .faxian ul {
+        margin: 0.8rem 0 0 0;
+        padding: 0 0.6rem;
+        list-style: none;
+        box-sizing: border-box;
+        color: #333;
+        background: #fff; }
+        html body .faxian ul li {
+          width: 100%;
+          height: 2rem;
+          font-size: 0.64rem;
+          padding: 0.3rem 0;
+          box-sizing: border-box;
+          display: flex; }
+          html body .faxian ul li:nth-child(2) {
+            border-top: 0.04rem solid #e5e5e5; }
+          html body .faxian ul li div {
+            height: 1.4rem;
+            line-height: 1.4rem;
+            text-align: center; }
+            html body .faxian ul li div:first-child {
+              width: 1.4rem;
+              margin-right: 0.54rem; }
+              html body .faxian ul li div:first-child img {
+                width: 1.4rem;
+                height: 1.4rem; }
+              html body .faxian ul li div:first-child .game {
+                width: 1rem;
+                height: 1rem;
+                vertical-align: middle; }
+          html body .faxian ul li .iconfont {
+            font-size: 1rem; }
+        html body .faxian ul:first-child {
+          margin-top: 0; }
+        html body .faxian ul:nth-child(2) .iconfont {
+          color: #10aeff; }
+        html body .faxian ul:nth-child(3) .iconfont {
+          color: #f86161; }
+        html body .faxian ul:last-child .iconfont {
+          color: #7787db; }
+
+/*# sourceMappingURL=faxian.css.map */
